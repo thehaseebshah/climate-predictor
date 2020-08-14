@@ -6,12 +6,12 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/zenyc/climate-predictor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zenyc/climate-predictor)
 ![GitHub forks](https://img.shields.io/github/forks/zenyc/climate-predictor?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/dialhaseeb?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/dialhaseeb?style=social)](www.twitter.com/dialhaseeb)
 
 ![Logo](https://github.com/zenyc/zenyc/blob/master/logo-small.png)
 
 ## 🕯 About
-**climate-predictor** is a *machine learning model* that predicts the next 10 days' temprature using past 30 days of weather data, wind speed and pressure for instance, from the *Jena Climate Dataset*. It uses Deep Learning techniques to do so.
+**climate-predictor** is a *machine learning model* that predicts the comming 10 days temprature using the weather data (wind speed and air pressure for instance) of the past 30 days. It uses Deep Learning techniques to do so. It was trained on the *Jena Climate Dataset*.
 
 <!--- Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.--->
 
@@ -44,7 +44,11 @@ Open `Anaconda Navigator` and click Jupyter Notebook.
 
 2- Copy the project files to the directory the notebooks are running.
 
+3- Github has a file upload limit of 100 MBs. Therefore files for this project that are larger than this limit(if any) are uploaded to a *Google Drive* and the link is [bit.ly/proj-dir](www.bit.ly/proj-dir). If, while running the notebook, you see some errors regarding missing files, download them from this link. Afterwards, copy those file(s) to the project's *proj-dir* directory.
+
 3- Open main.ipynb
+4- If you want to view how the model was built, open model.ipynb
+5- Alternatively, if you don't know how to use Jupyter Notebooks, you can run `script.py` to view a demo of the project. This script will automatically classify pictures you will place in the directory specified in the script and organize them into folders.
 
 ## 📓 Using the Notebook
 
